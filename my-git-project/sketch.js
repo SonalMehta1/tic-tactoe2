@@ -55,6 +55,8 @@ if (blueWins) { //playerOne is always blue
     disableRemainingItems()
     return winner
   }
+
+  //checking
   if (draw) {
     winner = draw
     console.log('Draw game!')
